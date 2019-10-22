@@ -1,0 +1,52 @@
+.carousel-item{
+	height: 100vh;
+	min-height: 350px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.banner-01{
+background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://via.placeholder.com/1920x1080') no-repeat;
+}
+.banner-02{
+background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://via.placeholder.com/1920x1080') no-repeat;
+}
+.banner-03{
+background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://via.placeholder.com/1920x1080') no-repeat;
+}
+.icons-circle{
+	width: 15px !important;
+  	height: 15px !important;
+  	border-radius: 50%;
+  	margin: 0 5px !important;
+}
+.txt-fixed{
+  	position: absolute;
+  	z-index: 1;
+}
+.text-shadow{
+  	text-shadow: 0px 2px 4px #444;
+}
+
+/* ----- GALLERY ----- */
+.gallery .col-12 img{
+	border: 1px solid red;
+	max-height: 200px;
+}
+.gallery img{
+	width: 100%;
+	object-fit: cover;
+}
+
+/* ----- FOOTER ----- */
+footer h2{
+	font-size: 25px;
+}
+footer h3{
+	font-size: 20px;
+}
+footer p{
+	font-size: 14px;
+}
